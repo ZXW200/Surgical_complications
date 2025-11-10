@@ -14,8 +14,11 @@ Alive_no_complication	means LET_IS == 0 AND HAS_POST == 0	Survival+no complicati
 Alive_with_complication	means LET_IS == 0 AND HAS_POST == 1	Survival+Complications
 
 df[df["GROUP"] == "Death_with_complication"]
+
 df[df["GROUP"] == "Normal_death_no_complication"]
+
 df[df["GROUP"] == "Alive_no_complication"]
+
 df[df["GROUP"] == "Alive_with_complication"]
 
 
